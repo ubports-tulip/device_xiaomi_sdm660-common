@@ -73,7 +73,9 @@ on post-fs-data
 #end
     mkdir /data/misc/seemp 0700 system system
     mkdir /data/vendor/tloc 0700 system drmrpc
-
+#bootctl
+    exec - root -- /system/bin/on-post-data.sh
+	
 on boot
     start rmt_storage
     start rfs_access

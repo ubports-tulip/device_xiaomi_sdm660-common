@@ -24,7 +24,11 @@
 # Bootctl
 PRODUCT_PACKAGES += \
     bootctl
-	
+
+# Init
+PRODUCT_PACKAGES += \
+     on-post-data.sh
+	 
 # Media
 PRODUCT_PACKAGES += \
     libmedia_omx
