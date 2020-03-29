@@ -45,6 +45,10 @@ PRODUCT_PACKAGES += \
     minisfservice \
     miniafservice
 
+# Sensonr
+PRODUCT_PACKAGES += \
+    sensorservice
+	
 # Ubuntu Packages
 PRODUCT_PACKAGES += \
     libbiometry_fp_api \
