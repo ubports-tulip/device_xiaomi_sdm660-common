@@ -27,6 +27,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+     init.disabled.rc \
      on-post-data.sh
 	 
 # Media
