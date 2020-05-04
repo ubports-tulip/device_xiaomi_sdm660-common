@@ -25,6 +25,9 @@
 PRODUCT_PACKAGES += \
     bootctl
 
+# fonts
+$(call inherit-product-if-exists, frameworks/base/data/fonts/fonts.mk)
+
 # Init
 PRODUCT_PACKAGES += \
      init.disabled.rc \
