@@ -452,3 +452,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbiometry_fp_api \
     libubuntu_application_api
+
+# Bootctl
+PRODUCT_PACKAGES += \
+    bootctl
