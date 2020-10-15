@@ -144,10 +144,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service
@@ -361,13 +357,6 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2 \
     libprotobuf-cpp-full
-
-PRODUCT_PACKAGES += \
-    ims-ext-common \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
